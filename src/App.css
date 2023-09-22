@@ -1,0 +1,62 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  border-bottom: 2px solid #b6b5b5;
+}
+
+.App ul{
+  margin-left: 90vh;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 6vh;
+}
+
+.App ul li{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.App ul li a{
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+}
+
+.signup-btn{
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  background: #b6b5b5;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.login-btn{
+  padding: 10px 30px;
+  background: white;
+  border: 2px solid #b6b5b5;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.login-btn:hover{
+  background: #000;
+  color: #fff;
+}
+
+.signup-btn:hover{
+  background: #000;
+  color: #fff;
+}
